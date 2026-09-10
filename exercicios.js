@@ -1,4 +1,4 @@
-let resultado = soma(5 ,5)
+let resultado = soma(14 ,21)
 
 console.log("O resultado dessa função é : " + resultado)
 
@@ -7,11 +7,13 @@ function soma(numA, numB){
     return somatorio
 }
 
-let userName = getFirstName("Alessandro Mussolini")
-
+let userName = getFirstName("Alessandro Mussolini", " ")
 console.log("Welcome " + userName)
 
-function getFirstName(name){
-    let firstName = name.split(" ")[0]
+userName = getFirstName("Andressa-Mussolini", "-")
+console.log("Welcome " + userName)
+
+function getFirstName(name, splitChar){
+    let firstName = name.split(splitChar)[0]
     return firstName
 }
