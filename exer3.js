@@ -1,3 +1,4 @@
+//switch case
 let dia = "terça";
 
 switch (dia) {
